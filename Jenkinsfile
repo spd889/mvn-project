@@ -12,7 +12,7 @@ stages {
             sh 'mvn clean package'
             }
      }
-    stage('build') {
+    stage('test') {
         steps {
             echo "hello world"
             }
